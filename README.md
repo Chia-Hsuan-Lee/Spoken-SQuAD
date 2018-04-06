@@ -10,7 +10,7 @@ https://arxiv.org/abs/1804.00320
 If you have any questions and suggestions, feel free to contact **chiahsuan.li@gmail.com**
 
 # Introduction
-Reading comprehension has been widely studied. One of the most representative reading comprehension tasks is Stanford Question Answering Dataset (SQuAD), on which machine is already comparable with human. On the other hand, accessing large collections of multimedia or spoken content is much more difficult and time-consuming than plain text content for humans. It’s therefore highly attractive to develop machines
+Reading comprehension has been widely studied. One of the most representative reading comprehension tasks is Stanford Question Answering Dataset ([SQuAD](https://arxiv.org/abs/1606.05250)), on which machine is already comparable with human. On the other hand, accessing large collections of multimedia or spoken content is much more difficult and time-consuming than plain text content for humans. It’s therefore highly attractive to develop machines
 which can automatically understand spoken content. Hence, we propose a new listening comprehension task - SpokenSQuAD.
 
 # Corpus Description
