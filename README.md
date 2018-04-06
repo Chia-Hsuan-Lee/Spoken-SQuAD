@@ -14,3 +14,10 @@ which can automatically understand spoken content. Hence, we propose a new liste
 In SpokenSQuAD, the document is in spoken form, the input question is in the form of text and the answer to each question is always a span in the document. We conducted the following procedures to generate spoken documents from the original SQuAD dataset. First, we used Google text-to-speech system to generate the spoken version of the articles in SQuAD. Then we utilized CMU Sphinx to generate the corresponding ASR transcriptions. In this study, we left the questions in the text form. We used SQuAD training set to generate the training set of Spoken SQuAD, and SQuAD development set was used to generate the testing set for Spoken SQuAD. If the answer of a question did not exist in the ASR transcriptions of the associated article, we removed the question-answer pair from the dataset because these examples are too difficult for listening comprehension machine at this stage. In this way, we collected 37,111 question answer pairs as the training set and 5,351 as the testing set.
 
 To test the comprehension ability of machine in real life scenario under worse audio quality, we further added two different levels of white noise into the audio files of testing set to obtain different WERs.
+
+| Training Set   | No noise      |   |  |
+| ------------- |:-------------:| :--------:| :--------:|
+| WER(%)        | 22.77         |  |    |
+| Testing Set   | No noise      | Noise V1  | Noise V2  |
+| ------------- |:-------------:| :--------:| :--------:|
+| WER(%)        | 22.73         |44.22      | 54.82     |
