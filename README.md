@@ -6,6 +6,7 @@ This repository contains dataset for the paper:
 > Chia-Hsuan Li, Szu-Lin Wu, Chi-Liang Liu and Hung-yi Lee
 
 https://arxiv.org/abs/1804.00320
+accepted by Interspeech 2018
 
 If you have any questions and suggestions, feel free to contact **chiahsuan.li@gmail.com**
 
@@ -15,6 +16,9 @@ which can automatically understand spoken content. Hence, we propose a new liste
 
 # Corpus Description
 In SpokenSQuAD, the document is in spoken form, the input question is in the form of text and the answer to each question is always a span in the document. We conducted the following procedures to generate spoken documents from the original SQuAD dataset. First, we used Google text-to-speech system to generate the spoken version of the articles in SQuAD. Then we utilized CMU Sphinx to generate the corresponding ASR transcriptions. In this study, we left the questions in the text form. We used SQuAD training set to generate the training set of Spoken SQuAD, and SQuAD development set was used to generate the testing set for Spoken SQuAD. If the answer of a question did not exist in the ASR transcriptions of the associated article, we removed the question-answer pair from the dataset because these examples are too difficult for listening comprehension machine at this stage. 
+
+In example (A), the original answer Coldplay is recognized as called play and therefore it is not presented in SpokenSQuAD. And example (B) is a selected example in SpokenSQuAD.     
+![alt text](https://github.com/chiahsuan156/Spoken-SQuAD/example.png)
 
 In this way, we collected 37,111 question answer pairs as the training set (Word Error Rate 22.77%) and 5,351 as the testing set (Word Error Rate 22.73%).
 
