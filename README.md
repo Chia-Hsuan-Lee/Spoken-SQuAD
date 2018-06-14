@@ -27,12 +27,12 @@ To test the comprehension ability of machine in real life scenario under worse a
 # Citation
 If you use the dataset in your work, please cite the following paper as:
 
-‘’‘
+```
 @article{li2018spoken,
   title={Spoken SQuAD: A Study of Mitigating the Impact of Speech Recognition Errors on Listening Comprehension},
   author={Li, Chia-Hsuan and Wu, Szu-Lin and Liu, Chi-Liang and Lee, Hung-yi},
   journal={arXiv preprint arXiv:1804.00320},
   year={2018}
 }
-’‘’
+```
 
