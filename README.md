@@ -1,4 +1,4 @@
-# Spoken-SQuAD : A spoken question answering dataset on SQUAD
+# Spoken-SQuAD : A spoken question answering dataset on SQuAD
 
 This repository contains dataset for the paper:
 > Spoken SQuAD: A Study of Mitigating the Impact of Speech Recognition Errors on Listening Comprehension
