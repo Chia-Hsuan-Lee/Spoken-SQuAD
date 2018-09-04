@@ -5,7 +5,8 @@ This repository contains dataset for the paper:
 
 > Chia-Hsuan Li, Szu-Lin Wu, Chi-Liang Liu and Hung-yi Lee
 
-https://arxiv.org/abs/1804.00320
+https://www.isca-speech.org/archive/Interspeech_2018/pdfs/1714.pdf
+
 accepted by Interspeech 2018 as an Oral paper.
 
 If you have any questions and suggestions, feel free to contact **chiahsuan.li@gmail.com**
