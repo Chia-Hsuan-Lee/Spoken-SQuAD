@@ -2,7 +2,7 @@
 
 This repository contains dataset for [Spoken SQuAD: A Study of Mitigating the Impact of Speech Recognition Errors on Listening Comprehension](https://www.isca-speech.org/archive/Interspeech_2018/pdfs/1714.pdf), the first large-scale spoken question answering dataset.
 
-[**Introduction**](#Introduction) | [**Corpus Description**](#Corpus-Description) | [**Paper**](https://www.isca-speech.org/archive/Interspeech_2018/pdfs/1714.pdf) | [**Audio Download Link**](https://dbqapublic.blob.core.windows.net/dbqa/kaggle-dbqa-20210726.zip) | [**Existing Models**](#Existing-Models) | [**Citation**](#Citation-and-Contact)
+[**Introduction**](#Introduction) | [**Corpus Description**](#Corpus-Description) | [**Paper**](https://www.isca-speech.org/archive/Interspeech_2018/pdfs/1714.pdf) | [**Audio Download Link (50GB)**](http://speech.ee.ntu.edu.tw/~chiahsuan/Spoken-SQuAD/Spoken-SQuAD_audio.zip) | [**Existing Models**](#Existing-Models) | [**Citation**](#Citation-and-Contact)
 
 ## Introduction
 Reading comprehension has been widely studied. One of the most representative reading comprehension tasks is Stanford Question Answering Dataset ([SQuAD](https://arxiv.org/abs/1606.05250)), on which machine is already comparable with human. On the other hand, accessing large collections of multimedia or spoken content is much more difficult and time-consuming than plain text content for humans. It’s therefore highly attractive to develop machines
@@ -29,8 +29,8 @@ following script:
 Evaluation metric: F1 on the test set
 
 |                                                                |  F1. on test set  |  AOS  |
-|:--------------------------------------------------------------:|:------------------:|
-|  [Lee et al. (2019)](https://www.isca-speech.org/archive/Interspeech_2018/pdfs/1714.pdf)  |         58.71       |         38.46       |
+|:--------------------------------------------------------------:|:------------------:|:------------------:|
+|  [Lee et al. (2018)](https://www.isca-speech.org/archive/Interspeech_2018/pdfs/1714.pdf)  |         58.71       |         38.46       |
 |     [Lee et al. (2019)](https://arxiv.org/pdf/1904.07904.pdf)    |         63.11       |                |
 |     [Chuang et al. (2019)](https://www.isca-speech.org/archive_v0/Interspeech_2020/pdfs/1570.pdf)     |          71.75       |                |
 |     [Su et al. (2020)](https://ieeexplore.ieee.org/document/9053979)    |          77.67       |                |
