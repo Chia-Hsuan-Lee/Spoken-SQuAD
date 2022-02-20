@@ -11,7 +11,7 @@ which can automatically understand spoken content. Hence, we propose a new liste
 ## Corpus Description
 In SpokenSQuAD, the document is in spoken form, the input question is in the form of text and the answer to each question is always a span in the document. We conducted the following procedures to generate spoken documents from the original SQuAD dataset. First, we used Google text-to-speech system to generate the spoken version of the articles in SQuAD. Then we utilized CMU Sphinx to generate the corresponding ASR transcriptions. In this study, we left the questions in the text form. We used SQuAD training set to generate the training set of Spoken SQuAD, and SQuAD development set was used to generate the testing set for Spoken SQuAD. If the answer of a question did not exist in the ASR transcriptions of the associated article, we removed the question-answer pair from the dataset.
   
-![alt text](https://github.com/chiahsuan156/Spoken-SQuAD/blob/master/example.png)
+![alt text](https://github.com/chiahsuan156/Spoken-SQuAD/blob/master/example.pdf)
 
 In this way, we collected 37,111 question answer pairs as the training set (Word Error Rate 22.77%) and 5,351 as the testing set (Word Error Rate 22.73%).
 
@@ -30,7 +30,7 @@ Evaluation metric: F1 on the test set
 
 |                                                                |  F1. on test set  |  AOS  |
 |:--------------------------------------------------------------:|:------------------:|:------------------:|
-|  [Lee et al. (2018)](https://www.isca-speech.org/archive/Interspeech_2018/pdfs/1714.pdf)  |         58.71       |         38.46       |
+|  [Lee et al. (2018)](https://arxiv.org/abs/1804.00320)  |         58.71       |         38.46       |
 |     [Lee et al. (2019)](https://arxiv.org/pdf/1904.07904.pdf)    |         63.11       |                |
 |     [Chuang et al. (2019)](https://www.isca-speech.org/archive_v0/Interspeech_2020/pdfs/1570.pdf)     |          71.75       |                |
 |     [Su et al. (2020)](https://ieeexplore.ieee.org/document/9053979)    |          77.67       |                |
