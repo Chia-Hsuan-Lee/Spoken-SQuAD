@@ -11,7 +11,7 @@ which can automatically understand spoken content. Hence, we propose a new liste
 ## Corpus Description
 In SpokenSQuAD, the document is in spoken form, the input question is in the form of text and the answer to each question is always a span in the document. We conducted the following procedures to generate spoken documents from the original SQuAD dataset. First, we used Google text-to-speech system to generate the spoken version of the articles in SQuAD. Then we utilized CMU Sphinx to generate the corresponding ASR transcriptions. In this study, we left the questions in the text form. We used SQuAD training set to generate the training set of Spoken SQuAD, and SQuAD development set was used to generate the testing set for Spoken SQuAD. If the answer of a question did not exist in the ASR transcriptions of the associated article, we removed the question-answer pair from the dataset.
   
-![alt text](https://github.com/chiahsuan156/Spoken-SQuAD/blob/master/example.pdf)
+![alt text](https://github.com/chiahsuan156/Spoken-SQuAD/blob/master/example.png)
 
 In this way, we collected 37,111 question answer pairs as the training set (Word Error Rate 22.77%) and 5,351 as the testing set (Word Error Rate 22.73%).
 
@@ -26,7 +26,7 @@ system. To dowload the audio files of training set and dev set, run the
 following script:
 
 ## Existing Models
-Evaluation metric: F1 on the test set
+Evaluation metric: F1 on the test set. Audio Overlapping Score (AOS).
 
 |                                                                |  F1. on test set  |  AOS  |
 |:--------------------------------------------------------------:|:------------------:|:------------------:|
