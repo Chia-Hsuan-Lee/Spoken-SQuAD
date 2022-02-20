@@ -1,6 +1,6 @@
 # Spoken-SQuAD : A spoken question answering dataset on SQuAD
 
-This repository contains dataset for [Spoken SQuAD: A Study of Mitigating the Impact of Speech Recognition Errors on Listening Comprehension](https://arxiv.org/abs/1804.00320), the first large-scale spoken question answering dataset.
+This repository contains dataset for [Spoken SQuAD: A Study of Mitigating the Impact of Speech Recognition Errors on Listening Comprehension](https://arxiv.org/abs/1804.00320), the first large-scale spoken question answering dataset. This is an English dataset. A Chinese dataset ODSQA is also available [here](https://github.com/chiahsuan156/ODSQA).
 
 [**Introduction**](#Introduction) | [**Corpus Description**](#Corpus-Description) | [**Paper**](https://arxiv.org/abs/1804.00320) | [**Audio Download Link (50GB)**](http://speech.ee.ntu.edu.tw/~chiahsuan/Spoken-SQuAD/Spoken-SQuAD_audio.zip) | [**Existing Models**](#Existing-Models) | [**Citation**](#Citation-and-Contact)
 
