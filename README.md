@@ -34,7 +34,7 @@ Evaluation metric: F1 on the test set. Audio Overlapping Score (AOS).
 |     [Lee et al. (2019)](https://arxiv.org/pdf/1904.07904.pdf)    |         63.11       |                |
 |     [Chuang et al. (2019)](https://www.isca-speech.org/archive_v0/Interspeech_2020/pdfs/1570.pdf)     |          71.75       |                |
 |     [Su et al. (2020)](https://ieeexplore.ieee.org/document/9053979)    |          77.67       |                |
-|     [Chung et al. (2020)](https://arxiv.org/abs/2010.02295)    |          77.67       |         65.90       |
+|     [Chung et al. (2020)](https://arxiv.org/abs/2010.02295)    |                 |         65.90       |
 
 ```
 sh download_audio.sh
